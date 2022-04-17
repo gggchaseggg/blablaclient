@@ -20,9 +20,9 @@ public class UDPClient{
             while (true) {
                 // Создайте соответствующие буферы
                 byte[] sendingDataBuffer = new byte[1024];
-                //######################################
+                //#######################################
                 //Пример тэга: Tag:00000449
-                //######################################
+                //#######################################
                 Scanner console = new Scanner(System.in);
                 System.out.print("<<:");
                 String tag = console.next();
